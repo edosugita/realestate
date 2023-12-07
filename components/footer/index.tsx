@@ -26,15 +26,21 @@ export default function FooterComponent() {
                                 <h5 className='font-bold text-sm text-white mb-2'>About</h5>
 
                                 <div className="flex flex-col gap-4">
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        About Us
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Blog
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Career
-                                    </Link>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            About Us
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Blog
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Career
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
 
@@ -42,15 +48,21 @@ export default function FooterComponent() {
                                 <h5 className='font-bold text-sm text-white mb-2'>Service</h5>
 
                                 <div className="flex flex-col gap-4">
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Buy Property
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Rent Property
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Sell Property
-                                    </Link>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Buy Property
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Rent Property
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Sell Property
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
 
@@ -58,15 +70,21 @@ export default function FooterComponent() {
                                 <h5 className='font-bold text-sm text-white mb-2'>Social Media</h5>
 
                                 <div className="flex flex-col gap-4">
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Instagram
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Facebook
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Twitter
-                                    </Link>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Instagram
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Facebook
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Twitter
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
 
@@ -74,15 +92,21 @@ export default function FooterComponent() {
                                 <h5 className='font-bold text-sm text-white mb-2'>Security</h5>
 
                                 <div className="flex flex-col gap-4">
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Privacy Police
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        User Agreement
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Copyright
-                                    </Link>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Privacy Police
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            User Agreement
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Copyright
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
 
@@ -90,15 +114,21 @@ export default function FooterComponent() {
                                 <h5 className='font-bold text-sm text-white mb-2'>Support</h5>
 
                                 <div className="flex flex-col gap-4">
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        FAQ
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Support Center
-                                    </Link>
-                                    <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
-                                        Helo Center
-                                    </Link>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            FAQ
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Support Center
+                                        </Link>
+                                    </div>
+                                    <div>
+                                        <Link href={'#'} className='text-xs font-medium text-[#F3F3F3]'>
+                                            Helo Center
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
 

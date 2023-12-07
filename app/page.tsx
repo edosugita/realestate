@@ -74,13 +74,13 @@ export default function Home() {
 
                     <div className="h-[calc(100vh-64px)] w-full overflow-hidden rounded-[14px] col-span-1">
                         <Card className="h-full w-full">
-                            <CardHeader className="absolute z-[11] w-full h-full flex flex-col gap-16 pt-44 px-28">
+                            <CardHeader className="absolute z-[11] w-full h-full flex flex-col gap-16 justify-center md:justify-normal md:pt-44 px-28 bg-black bg-opacity-60 md:bg-none md:bg-opacity-0">
                                 <div className="flex flex-col justify-center items-center gap-6 text-[#F3F3F3]">
                                     <h3 className="text-4xl font-bold text-center">Embark on Your Home&apos;s Journey with Us!</h3>
-                                    <p className='text-base font-medium'>Navigate Your Way to the Perfect Property with Our Expertise and Cutting-Edge Tools for a Seamless Journey</p>
+                                    <p className='text-base font-medium text-center'>Navigate Your Way to the Perfect Property with Our Expertise and Cutting-Edge Tools for a Seamless Journey</p>
                                 </div>
 
-                                <div className="flex flex-col justify-start w-full">
+                                <div className="hidden md:flex sm:flex-col justify-start w-full">
                                     <div className="flex">
                                         <div className="p-2 backdrop-blur-[24.726133346557617px] rounded-t-lg">
                                             <Tabs aria-label="Options" color='primary' radius='sm' variant='solid' className='font-semibold rounded'>
@@ -92,7 +92,7 @@ export default function Home() {
                                     </div>
                                     <div className="p-2 backdrop-blur-[24.726133346557617px] rounded-b-lg h-full">
                                         <div className="bg-[#f4f4f5] py-3 px-4 rounded-xl h-full">
-                                            <div className="flex gap-16 h-full w-full">
+                                            <div className="flex flex-nowrap lg:gap-5 h-full w-full">
                                                 <Select
                                                     label="Property Type"
                                                     placeholder="Select Property Type"
@@ -107,13 +107,13 @@ export default function Home() {
                                                 </Select>
 
                                                 <div className="h-full flex items-center">
-                                                    <div className="h-3/4 bg-[#E8EAED] w-0.5 rounded-full"></div>
+                                                    <div className="h-3/4 bg-[#E8EAED] w-0.5 rounded-full hidden sm:block"></div>
                                                 </div>
 
                                                 <Select
                                                     label="Property Type"
                                                     placeholder="Select Property Type"
-                                                    className="w-full shadow-none"
+                                                    className="w-full shadow-none hidden sm:block"
                                                     variant='flat'
                                                 >
                                                     {Object.keys(groupedData).map((city, index) => (
@@ -124,13 +124,13 @@ export default function Home() {
                                                 </Select>
 
                                                 <div className="h-full flex items-center">
-                                                    <div className="h-3/4 bg-[#E8EAED] w-0.5 rounded-full"></div>
+                                                    <div className="h-3/4 bg-[#E8EAED] w-0.5 rounded-full hidden lg:block"></div>
                                                 </div>
 
                                                 <Select
                                                     label="Property Type"
                                                     placeholder="Select Property Type"
-                                                    className="w-full shadow-none"
+                                                    className="w-full shadow-none hidden lg:block"
                                                     variant='flat'
                                                 >
                                                     {Object.keys(groupedData).map((city, index) => (
@@ -185,13 +185,13 @@ export default function Home() {
                             </div>
                             {/* END */}
 
-                            <div className="grid grid-cols-3 gap-5">
-                                <div className="flex flex-col flex-auto gap-5">
+                            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                                <div className="lg:col-span-1 sm:col-span-2 col-span-1 flex flex-col flex-auto gap-5">
 
                                     <div className="bg-gradient-to-r from-[#F1F6FF] to-[#E8EAED00] rounded-2xl py-7 px-5 shadow-[4px_4px_10px_0px_rgba(0,0,0,0.04)]">
                                         <div className="flex justify-between">
                                             <div>
-                                                <h2 className="text-[#2E3137] text-5xl font-semibold leading-[96px]">24K+</h2>
+                                                <h2 className="text-[#2E3137] text-xl sm:text-3xl lg:text-5xl font-semibold leading-10 sm:leading-[66px] lg:leading-[96px]">24K+</h2>
                                                 <span className="mt-1 text-[#454A53] text-base font-medium">Happy Customer</span>
                                             </div>
 
@@ -202,7 +202,7 @@ export default function Home() {
                                     <div className="bg-gradient-to-r from-[#F1F6FF] to-[#E8EAED00] rounded-2xl py-7 px-5 shadow-[4px_4px_10px_0px_rgba(0,0,0,0.04)]">
                                         <div className="flex justify-between">
                                             <div>
-                                                <h2 className="text-[#2E3137] text-5xl font-semibold leading-[96px]">170K+</h2>
+                                                <h2 className="text-[#2E3137] text-xl sm:text-3xl lg:text-5xl font-semibold leading-10 sm:leading-[66px] lg:leading-[96px]">170K+</h2>
                                                 <span className="mt-1 text-[#454A53] text-base font-medium">Properties Listed</span>
                                             </div>
 
@@ -213,7 +213,7 @@ export default function Home() {
                                     <div className="bg-gradient-to-r from-[#F1F6FF] to-[#E8EAED00] rounded-2xl py-7 px-5 shadow-[4px_4px_10px_0px_rgba(0,0,0,0.04)]">
                                         <div className="flex justify-between">
                                             <div>
-                                                <h2 className="text-[#2E3137] text-5xl font-semibold leading-[96px]">200K+</h2>
+                                                <h2 className="text-[#2E3137] text-xl sm:text-3xl lg:text-5xl font-semibold leading-10 sm:leading-[66px] lg:leading-[96px]">200K+</h2>
                                                 <span className="mt-1 text-[#454A53] text-base font-medium">Award Winning</span>
                                             </div>
 
@@ -223,7 +223,7 @@ export default function Home() {
 
                                 </div>
 
-                                <div className="relative h-full w-full">
+                                <div className="sm:col-span-1 relative sm:h-72 lg:h-full lg:w-full sm:block hidden">
                                     <div className="absolute z-[11] w-full h-full flex items-end p-4">
                                         <div className="bg-primary-800 bg-opacity-60 px-6 py-5 w-full rounded">
                                             <p className='text-center text-white font-bold leading-8 text-base'>Innovative designs for modern living</p>
@@ -239,7 +239,7 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div className="relative h-full w-full">
+                                <div className="sm:col-span-1 relative sm:h-72 lg:h-full lg:w-full sm:block hidden">
                                     <div className="absolute z-[11] w-full h-full flex items-end p-4">
                                         <div className="bg-primary-800 bg-opacity-60 px-6 py-5 w-full rounded">
                                             <p className='text-center text-white font-bold leading-8 text-base'>Tech-integrated comfort</p>
@@ -268,7 +268,7 @@ export default function Home() {
 
                         <div className="w-full h-full grid grid-cols-1 gap-12">
 
-                            <div className="grid grid-cols-3 gap-5">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                                 {
                                     currentItems.map((item, index) => (
                                         <Card className='border-none outline-0 px-2 py-3' radius='sm' shadow='sm' key={index}>
@@ -315,7 +315,7 @@ export default function Home() {
                                     ))
                                 }
                             </div>
-                            <div className="flex justify-between">
+                            <div className="flex flex-col md:flex-row justify-between gap-4">
                                 <Pagination
                                     size='sm'
                                     radius='sm'
@@ -364,9 +364,9 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="col-span-1 grid grid-cols-6 gap-28 items-center">
-                        <div className="col-span-2 relative w-full h-full">
-                            <div className="pl-11 pr-16 w-full">
+                    <div className="col-span-1 grid grid-cols-1 md:grid-cols-6 gap-28 items-center w-full">
+                        <div className="hidden sm:block sm:col-span-6 md:col-span-2 relative w-full h-full">
+                            <div className="pl-11 pr-16 w-full h-full">
                                 <Image
                                     src='/images/images.png'
                                     alt='Background'
@@ -385,7 +385,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="col-span-4 mr-28 w-3/5">
+                        <div className="col-span-1 md:col-span-4 mr-28 w-full lg:w-3/5">
                             <h5 className='text-[#2E3137] text-xl sm:text-2xl lg:text-[40px] font-bold leading-10 sm:leading-[54px] md:leading-[160%]'>Get <span className='text-[#2553AA]'>Exclusive Property</span> Insights & Guidance</h5>
 
                             <p className='mt-4 font-medium text-base text-[#5C636F]'>Access insider knowledge and personalized advice for your property journey with our exclusive insights. Elevate your search with expert guidance tailored to your unique needs.</p>
