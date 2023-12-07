@@ -29,7 +29,8 @@ const config: Config = {
               700: '#2553AA',
               800: '#1B3E80',
               900: '#122A55',
-              'foreground': '#FFFFFF',
+              DEFAULT: '#D7E5FF',
+              'foreground': '#2553AA',
             }
           }
         }

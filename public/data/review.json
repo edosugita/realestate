@@ -1,0 +1,46 @@
+{
+    "review": [
+      {
+        "id": 1,
+        "name": "Sarah Thompson",
+        "rating": 5,
+        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+        "desc": "HomelyHub made finding my dream home an effortless experience! Their personalized approach and attention to detail ensured I found a house that perfectly matched my lifestyle. I'm beyond thrilled with my new home!"
+      },
+      {
+        "id": 2,
+        "name": "David Lee",
+        "rating": 4.5,
+        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+        "desc": "I can't thank HomelyHub enough for guiding me through the selling process. Their expertise and dedication made the entire experience smooth and stress-free. Highly recommend their services!"
+      },
+      {
+        "id": 3,
+        "name": "Olivia Bennett",
+        "rating": 5,
+        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+        "desc": "From the initial consultation to handing over the keys, HomelyHub's team was exceptional. Their commitment to understanding my needs resulted in finding a home that feels like it was made just for me."
+      },
+      {
+        "id": 4,
+        "name": "Michael Campbell",
+        "rating": 4,
+        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+        "desc": "Choosing HomelyHub was the best decision I made for my property search. Their professionalism and knowledge of the market helped me secure a beautiful home in a fantastic location. I'm ecstatic!"
+      },
+      {
+        "id": 5,
+        "name": "Emily Rodriguez",
+        "rating": 5,
+        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+        "desc": "HomelyHub exceeded my expectations! They not only found me a fantastic rental property but also provided valuable insights into the neighborhood and amenities. Their support made relocating a breeze."
+      },
+      {
+        "id": 6,
+        "name": "Ethan Johnson",
+        "rating": 4.5,
+        "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+        "desc": "I'm impressed with HomelyHub's dedication to their clients. Their patience and commitment to finding the perfect property, even with my specific requirements, showcased their expertise and genuine care."
+      }
+    ]
+}

@@ -16,11 +16,16 @@ export default function NavbarComponent() {
                             Buy
                         </Link>
                     </NavbarItem>
-                    <NavbarItem isActive>
-                        <Link href="#" aria-current="page">
+                    <NavbarItem>
+                        <Link color="foreground" href="#">
                             Sell
                         </Link>
                     </NavbarItem>
+                    {/* <NavbarItem isActive>
+                        <Link href="#" aria-current="page">
+                            Sell
+                        </Link>
+                    </NavbarItem> */}
                     <NavbarItem>
                         <Link color="foreground" href="#">
                             Rent
