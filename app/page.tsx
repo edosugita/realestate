@@ -168,7 +168,7 @@ export default function Home() {
                                     <h5 className='text-xl sm:text-2xl lg:text-4xl font-bold leading-10 sm:leading-[54px] md:leading-[64px]'>We&apos;re Your Dependable Real</h5>
                                     <div className="flex gap-6 items-center">
                                         <Image
-                                            src='https://images.unsplash.com/photo-1513584684374-8bab748fbf90'
+                                            src='https://images.unsplash.com/photo-1448630360428-65456885c650'
                                             alt='Background Real Estate'
                                             loading='lazy'
                                             radius='sm'
@@ -232,7 +232,7 @@ export default function Home() {
                                     <div className="absolute z-10 h-full w-full">
                                         <Image
                                             removeWrapper
-                                            src='https://images.unsplash.com/photo-1479839672679-a46483c0e7c8'
+                                            src='https://images.unsplash.com/photo-1511988617509-a57c8a288659'
                                             alt='Background Real Estate'
                                             className='h-full w-full object-cover object-center'
                                         />
